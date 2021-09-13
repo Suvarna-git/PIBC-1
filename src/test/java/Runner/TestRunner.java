@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions( 
-		features="src/test/resources/PaymentFlowFeatures"
+		features="src/test/resources/SetupFeatures"
 		,glue= {"StepDefinition"}
 		,monochrome=true
 		,dryRun=false
